@@ -2,14 +2,15 @@
 <html class="no-js" lang="zxx">
 
 <head>
+    <!-- 112 x 90 -->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>busicol</title>
+    <title>iLinko Studio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <!-- Place favicon.ico in the root directory -->
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -25,6 +26,7 @@
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/animationText.css"/>
+    <link href="css/ilinkoStyle.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
@@ -55,31 +57,34 @@
                         <div class="col-xl-6 col-md-6">
                             <div class="short_contact_list">
                                 <ul>
-                                    <li><a href="#"> <i class="fa fa-envelope"></i> info@docmed.com</a></li>
-                                    <li><a href="#"> <i class="fa fa-phone"></i> 1601-609 6780</a></li>
+                                    <li><a href="#"> <i class="fa fa-envelope"></i> iianriverk@gmail.com</a></li>
+                                    <!-- <li><a href="#"> <i class="fa fa-phone"></i> 1601-609 6780</a></li>-->
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="sticky-header" class="main-header-area">
+            <div id="sticky-header" class="main-header-area" style="margin-top:10px;">
                 <div class="container">
                     <div class="header_bottom_border">
                         <div class="row align-items-center">
-                            <div class="col-xl-3 col-lg-2">
+                            <div class="col-xl-6 col-lg-5">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="img/logo.png" alt="">
+                                        <img src="img/ilinkodes_logo.png" alt="" id="iLinkoLogo" style="height: 80px;">
+                                        <span id="iLinkoSpan" style="color : white; margin-left: 20px;" >iLinko Studio</span>
                                     </a>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-7">
-                                <div class="main-menu  d-none d-lg-block">
+                                <div class="main-menu  d-none d-lg-block float-right">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a class="active" href="index.html">home</a></li>
-                                            <li><a href="about.html">About</a></li>
+                                            <li><a class="active" href="index.html">Inicio</a></li>
+                                            <li><a href="about.html">Sobre Mí</a></li>
+                                            <!--
                                             <li><a href="service.html">Services</a></li>
                                             <li>
                                                 <a href="#">blog <i class="ti-angle-down"></i></a>
@@ -95,22 +100,10 @@
                                                     <li><a href="Portfolio.html">Portfolio</a></li>
                                                     <li><a href="portfolio_details.html">Portfolio details</a></li>
                                                 </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            </li>-->
+                                            <li><a href="contact.html">Contacto</a></li>
                                         </ul>
                                     </nav>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                                <div class="Appointment">
-                                    <div class="search_button">
-                                        <a href="#">
-                                            <i class="ti-search"></i>
-                                        </a>
-                                    </div>
-                                    <div class="book_btn d-none d-lg-block">
-                                        <a class="popup-with-form" href="#test-form">Get a Quote</a>
-                                    </div>
                                 </div>
                             </div>
                             <div class="col-12">
@@ -133,14 +126,14 @@
                         <div class="col-xl-12">
                             <div class="slider_text ">
                                 <h3>
-                                    Grow Big with <br>
-                                    Musicol Business
+                                    Bienvenido a mi  <br>
+                                    website.
                                 </h3>
                                 <h1 id="animatedText">
-                                    This pen is
+                                    Yo soy
                                     <span class="txt-rotate"
                                           data-period="2000"
-                                          data-rotate='[ "nerdy.", "simple.", "pure JS.", "pretty.", "fun!" ]'></span>
+                                          data-rotate='[ "iLinko.", "Programador.", "Gamer.", "Estudiante.", "Informatico." ]'></span>
                                 </h1>
                                 <div class="video_service_btn">
                                     <a href="#" class="boxed-btn3">Our Services</a>
@@ -683,6 +676,10 @@
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script>
+
+    <!--other js-->
+    <script src="js/animatedText.js"></script>
+
 
     <script src="js/main.js"></script>
 </body>
